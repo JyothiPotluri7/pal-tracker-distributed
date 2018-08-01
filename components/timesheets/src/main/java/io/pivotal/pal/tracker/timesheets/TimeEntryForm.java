@@ -5,7 +5,7 @@ public class TimeEntryForm {
     public final long userId;
     public final String date;
     public final int hours;
-    
+
 
     private TimeEntryForm() { // for jackson
         this(timeEntryFormBuilder());
